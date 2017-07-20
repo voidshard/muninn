@@ -1,0 +1,114 @@
+
+html {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+*.clickable {
+    cursor: pointer;
+}
+
+/* div.footer anchor to bottom */
+div.footer {
+   position:absolute;
+   bottom:10px;
+   width:98%;
+   height:10px;
+}
+
+img.thumbnail {
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+img.icon {
+    height: 100%;
+    width: 100%;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+div.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+
+div.subcontainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.datatable { /* container div search w/ table */
+    width: 30%;
+}
+
+div.shadow {
+    box-shadow: -2px 2px 2px darkgray;
+}
+
+div.datatable table {
+    text-align: center;
+    border-spacing: 1px;
+    -webkit-border-horizontal-spacing: 0px;
+}
+
+div.datatable th {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: lighter;
+    font-size: small;
+    background-color: whitesmoke;
+}
+
+div.datatable td {
+    border-bottom: 1px;
+}
+
+div.datatable tr {
+    background-color: whitesmoke;
+}
+
+div.dentright {
+    margin-left: 20px;
+}
+
+div.datatable tr:hover {
+    font-weight: normal;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+div.datatable {
+    width: 30%;
+}
+
+div.dataview {
+    width: 70%;
+}
+
+div.inline { /* container for search */
+    display: inline;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+input {
+    margin: 0px 10px 0px 0px;
+}
+
